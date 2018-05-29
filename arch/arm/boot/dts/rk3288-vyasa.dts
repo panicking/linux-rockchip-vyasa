@@ -415,8 +415,6 @@
 
 			vcc_sd: SWITCH_REG1 {
 				regulator-name = "vcc_sd";
-				regulator-min-microvolt = <3300000>;
-				regulator-max-microvolt = <3300000>;
 				regulator-always-on;
 				regulator-boot-on;
 				regulator-state-mem {
